@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap"rel="stylesheet">
+    <title>Encripta</title>
+    
+
+</head>
+<body>
+    <div class="encabezado">
+            </div>
+            <div class="contenedor">
+                <h1>"Encriptacion"</h1>
+            </div>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="85" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick= "btnEncriptar()">
+                    <img src="./Imágenes/cerrar.png">Encriptar</button> 
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">
+                    <img src="./Imágenes/abrir.png">Desencriptar</button>
+                   </div>
+         </section>
+        <section>
+                <textarea class="mensaje" cols="30" rows="20"></textarea>
+         </section>
+    </main>
+    <script src="/script.js"></script>
+    <footer class="footer">
+        <p>Desarrollado por Alejandro Rodriguez</p>
+    </footer>
+</body>
+</html>
